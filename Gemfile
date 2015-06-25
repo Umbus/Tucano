@@ -41,5 +41,24 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  gem 'bootstrap-sass', '2.3.2.0'
+
+  gem 'autoprefixer-rails'
+
+  gem 'rspec-rails', '2.13.1'
+
+  gem 'test-unit'
+ 
+  gem 'minitest'
+
+  gem 'bcrypt-ruby', '3.1.2'
+
+group :test do
+  gem 'selenium-webdriver', '2.35.1'
+  gem 'capybara'
+  gem 'factory_girl_rails', '4.2.0'
+end
+
 end
 
